@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Inline-Internal-External.css">
+        <style>
+            h2{
+                font-size: 30px;
+                color: aqua;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+                font-size: 40px;
+            }
+        </style>
+</head>
+<body>
+    <!-- 1. Inline (CSS nội tuyến): Viết mã CSS ngay bên trong phần tử cơ bản HTML 
+        Nhược điểm:
+            1. Khó thay đổi, mỗi lần thay đổi phải thay đổi một cách riêng kẻ
+            2. Không tái sử dụng được
+            3. Khó quản lý
+            4. Khó tách biệt cấu trúc
+        -->
+    <!-- 2. Internal (CSS nội bộ): viết mã CSS trong cặp thẻ style (đặt trong khối head)
+        Ưu điểm: Code tách biệt với phần tử, có thể áp dụng với toàn trang
+        Hạn chế: vẫn khó quản lý khi dự án lớn -->
+    <!-- 3. External (CSS bên ngoài ): viết mã CSS thành 1 tệp .css, cần khai báo trong HTML để link đến tệp CSS
+        rel="stylesheet" thông báo cho trình duyệt, tải tệp CSS được chỉ định và áp dụng cá định dạng kiểu trong tệp đó   -->
+    <h1 style="color: blue;">Chi thang ne hihi</h1>
+    <h2>Lai la chi thang ne </h2>
+    <h3>Van la chi thang ne</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repellat perferendis, doloremque distinctio obcaecati delectus adipisci earum, quia et voluptatibus excepturi provident, atque fugit explicabo? Veniam quos sint ea eius.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus odio tempore voluptates, in, commodi deleniti excepturi vitae est error quo aut? Eligendi illum delectus recusandae ipsa quaerat fugiat? Quas, iure.</p>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .root {
+        width: 200px;
+        height: 200px;
+        background: url(./ava.png) center/cover;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background: url(./ava.png) center/cover;
+        /* 2 số: trên - dưới / trái - phải */
+        /* 3 số: trên / trái - phải / dưới */
+        /* 4 số: trên / dưới / trái / phải */
+
+        /* thêm round để bo góc */
+        clip-path: inset(20px round 15px 50px 60px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root"></div>
+    <div class="box"></div>
+  </body>
+</html>

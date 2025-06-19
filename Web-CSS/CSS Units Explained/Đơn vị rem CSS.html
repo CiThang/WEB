@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            font-size: 10px;
+
+        }
+        html{
+            font-size: 40px;
+        }
+        .child{
+            font-size: 2rem;
+            width: 2rem;
+            height: 2rem;
+            /* 16px mặc định => 16px*2=32px */
+            background-color: violet;
+            border: 0.2rem solid red ;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"> em 
+            <div class="child"> em 
+                <div class="child"> em </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

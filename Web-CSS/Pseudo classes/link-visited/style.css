@@ -1,0 +1,21 @@
+/* .line1:hover{
+    color: ;
+}
+
+#line2:active{
+    color: blue;
+}
+
+p:hover{
+    font-weight: bold;
+} */
+
+/* trước khi click */
+.click_me{
+    color: yellow;
+}
+
+/* sau khi click */
+a:visited{
+    color: blue;
+}

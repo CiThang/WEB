@@ -1,0 +1,12 @@
+/* Chỉ những thẻ p chịu trực tiếp */
+div > p{
+    color: blue;
+}
+block p{
+    color: red;
+}
+
+/* thẻ p con của class="loichuc" */
+.loichuc p{
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+/* Tác động lên thẻ a có thuộc tính là href a[href] */
+
+
+a[href]{
+     font-weight: bold;
+    font-size: 15px;
+}
+p[href]{
+    color: red;
+}
+
+/* Tìm tất cả các thẻ target có giá trị "_blank" */
+[target="_blank"]{
+    background-color: rgb(189, 209, 209);
+}
+
+/* Tìm tất cả các thẻ title mà có giá trị "facebook" (Chỉ một chuỗi đơn lẻ)*/
+[title~="facebook1"]{
+    color: rgb(250, 0, 229);
+}
+
+/* Tìm tất cả các thẻ title chỉ cần có giá trị "face" (Không kể đứng đơn lẻ) */
+[title*="face"]{
+    font-size: 30px;
+}
+
+/* Tìm tất cả các thẻ title có giá trị "face" đơn lẻ hoặc nối vd: face, face-123 */
+[title|="face"]{
+    background-color: aqua;
+}
+
+/* Tìm tất cả các thẻ title (chỉ quan tâm) bắt đầu bằng giá trị "face" */
+[title^="face"]{
+    border: solid 2px black;
+
+}
+
+/* Tìm tất cả các thẻ title kết thúc bằng kí tự "k" */
+[title$="k"]{
+    border-radius: 10px;
+}

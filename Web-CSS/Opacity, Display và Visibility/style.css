@@ -1,0 +1,15 @@
+body{
+    background-image: url(../../html\ path.jpg);
+    opacity: 0.8;
+}
+h2{
+    opacity: 0.1;
+    background-color: green;
+    display: none;
+}
+h3{
+    color: red;
+}
+h1{
+    visibility: hidden;
+}

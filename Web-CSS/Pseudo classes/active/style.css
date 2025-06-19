@@ -1,0 +1,13 @@
+.line1:active{
+    color: red;
+    font-weight: bold;
+}
+#line2:active{
+    color: blue;
+    border: solid;
+    border-radius: 5px;
+    display: inline-block;
+}
+p:active{
+    background-color: rgb(1, 225, 255);
+}

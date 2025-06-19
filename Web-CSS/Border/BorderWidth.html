@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.one{
+            border-style: solid;
+            border-width: 5px;
+        }
+        p.two{
+            border-style: solid;
+            border-width: medium;
+        }
+        p.three{
+            border-style: dotted;
+            border-width: 2px;
+        }
+        p.four{
+            border-style: dotted;
+            border-width: thick;
+        }
+        p.five{
+            border-style: double;
+            border-width: 15px;
+        }
+        p.six{
+            border-style: double;
+            border-width: thick;
+        }
+        p.seven{
+            border-style: solid;
+            border-width: 5px 20px; /*5px trên và dưới, 20px hai bên*/
+        }
+        p.eight{
+            border-style: solid ;
+            border-width: 20px 5px;
+        }
+        p.nine{
+            border-style: solid;
+            border-width: 25px 10px 4px 35px; /*25px top, 10px right, 4px bottom, 35px left*/
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Thuộc tính độ rộng đường viền</h2>
+    <p>Thuộc tính này chỉ định chiều rộng của bốn đường viền</p>
+    <p class="one">Some Text</p>
+    <p class="two">Some Text</p>
+    <p class="three">Some Text</p>
+    <p class="four">Some Text</p>
+    <p class="five">Some Text</p>
+    <p class="six">Some Text</p>
+    <p class="seven">Some Text</p>
+    <p class="eight">Some Text</p>
+    <p class="nine">Some Text</p>
+
+    <p><b>Lưu ý:</b> Thuộc tính "border-width" không hoạt động nếu nó chỉ sử dụng một mình. Luôn chỉ định thuộc tính "border-style" để đặt đường viền trước</p>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+h1{
+    /* Màu chữ */
+    color: blueviolet;
+    /* Kiểu chữ */
+    font-style: italic;
+    /* font chữ */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Chuyển hoa thường */
+    text-align: center;
+    /* Cỡ chữ */
+    font-size: 15px;
+}

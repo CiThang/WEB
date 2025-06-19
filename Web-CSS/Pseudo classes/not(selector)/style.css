@@ -1,0 +1,27 @@
+/* Loại trừ các thẻ p có class là top */
+.top:not(p){
+    color: yellow;
+}
+/* Loại trừ các thẻ con đầu tiên trong mỗi lớp cha có class là top */
+.top:not(:first-of-type){
+    color: red;
+
+}
+
+/* Độ ưu tiên yêu nhất hơn h1*/
+*{
+    font-weight: bold !important;
+}
+
+/* Độ ưu tiên h1 mạnh hơn */
+h1{
+    color: blue;
+}
+
+.demo{
+    color: green;
+}
+
+#theh1{
+    color: yellow;
+}

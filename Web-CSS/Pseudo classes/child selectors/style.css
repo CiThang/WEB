@@ -1,0 +1,25 @@
+/* thẻ con đầu tiên */
+p:first-child{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* thẻ con cuối cùng */
+p:last-child{
+    color: red;
+    font-size: 20px;
+    border: solid;
+    border-radius: 5px;
+}
+
+p:nth-child(2):hover{
+    color: green;
+    font-weight: bold;
+    border: solid;
+    border-radius: 6px;
+}
+
+p:nth-child(even):active{
+    background-color: brown;
+}

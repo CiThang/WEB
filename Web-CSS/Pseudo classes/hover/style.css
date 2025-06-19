@@ -1,0 +1,14 @@
+p:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.line1:hover{
+    color: blue;
+}
+
+#line2:hover{
+    border: solid;
+    border-radius: 5px;
+    display: inline-block; /*Chỉnh border bao trọn nội dung*/
+}

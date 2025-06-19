@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+
+.container h1{
+    font-size: 40px;
+}
+
+.container p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.container image{
+    max-width: 600px;
+}
+
+.container{
+    margin: 0px auto;
+    width: 600px;
+    padding: 0px;
+    background-color: pink;
+    text-align: center;
+}

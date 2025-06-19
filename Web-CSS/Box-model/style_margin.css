@@ -1,0 +1,36 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 10px;
+    border: 10px solid blue;
+    margin :30px;
+    /* margin top, margin left,...: khoảng cách giữa các phần tử */
+}
+
+.box1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    padding: 10px;
+    border: 10px solid black;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    padding: 30px;
+    border: 12px solid crimson;
+    margin-left: 90px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+    border: 10px solid pink;
+    margin-left: 224px;
+}

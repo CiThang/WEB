@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background: url(./ava.png) center/cover;
+        /* clip-path: circle(80px); */
+        clip-path: circle(50%); /* 50%*max(w,h) */
+        clip-path: circle(
+          50% at 0 20%
+        ); /* 50% at x y (trong đó x y là tọa độ tâm*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

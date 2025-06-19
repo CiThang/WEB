@@ -1,0 +1,12 @@
+/* Điều kiện: thẻ đứng ngay sau h1 + .. */
+h1 + h2{
+    color: rgb(136, 255, 0);
+}
+h3.demo.demo2 + h3,p{
+    color: blue;
+}
+
+/* Tất cả những thẻ h3 sau thẻ h1 */
+h1 ~ h3 {
+    font-size: 50px;
+}
